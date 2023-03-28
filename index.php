@@ -22,55 +22,31 @@ if (isset($_POST['submit'])) {
 <html lang="en">
 
 <head>
-	<style>
-* {
-  max-width: 400px;
-  margin: 0 auto;
-  text-align: center;
-}
-.container{
+	
+<meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Index</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <style>
+    body {
+      height: 90vh;
+    }
+	.container{
         max-width: 80%;
         background-color: skyblue;
         margin: auto;
         padding: 23px;
     }
-
-h2 {
-  margin-bottom: 30px;
+	span {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-}
 
-label {
-  margin-bottom: 10px;
-  text-align: left;
-}
-
-input {
-  padding: 10px;
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 16px;
-}
-
-button {
-  padding: 10px 30px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #0069d9;
-}
-</style>
+  </style>
 
 <body>
 	<div class="container">
